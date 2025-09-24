@@ -396,6 +396,35 @@ summary svg {
   display: inline;
   margin-top: -0.25rem;
 }
+
+/* Custom login button styles */
+.login-section {
+  margin-top: 2rem;
+}
+
+.login-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px 32px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.login-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  background: linear-gradient(135deg, #5a67d8 0%, #6b46c1 100%);
+}
+
+.login-button:active {
+  transform: translateY(0);
+}
+
 @media screen and (min-width: 768px) {
   #hero {
     grid-template-columns: repeat(2, minmax(0, 1fr));
