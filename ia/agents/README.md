@@ -5,7 +5,17 @@
 
 **Core Value Proposition**: Users can connect apps like Asana (for todo lists), Slack (for notifications), GitHub (for code activity), and many more through beautiful, functional widgets that show the latest and most important information from each connected app.
 
-This directory contains the comprehensive role definitions for our C-suite executive agents, each aligned with our mission of simplifying app integration management through customizable dashboard experiences.
+## 🔄 LEAN Methodology Integration
+**Build-Measure-Learn Philosophy**: All agent decisions prioritize **validated learning** over assumptions. We build our widget platform through small, incremental experiments that maximize learning while minimizing waste.
+
+**Key Principles**:
+- 🔬 **Hypothesis-Driven Development**: Every feature starts as a testable assumption
+- ⚡ **MVP-First Approach**: Build minimal viable widgets before adding complexity
+- 📊 **Data-Driven Decisions**: User feedback and metrics guide all major choices
+- 🔄 **Continuous Iteration**: Regular Build-Measure-Learn cycles (1-2 week timeboxes)
+- 🚫 **Eliminate Waste**: Quickly discontinue features that don't provide user value
+
+This directory contains the comprehensive role definitions for our C-suite executive agents, each aligned with our mission and LEAN methodology for building the integration platform.
 
 ## 🏢 Organizational Hierarchy
 
@@ -34,24 +44,25 @@ This directory contains the comprehensive role definitions for our C-suite execu
 ## 👥 Agent Roles
 
 ### [CEO - Chief Executive Officer](./ceo.md)
-**Role**: Dashboard widget integration platform strategic leadership
-- **Authority**: Final decision-maker on integration roadmap and partnerships
-- **Focus**: Platform vision, app partnerships (Asana, Slack, GitHub), user experience strategy
-- **Key Metrics**: MAU, widget installations, integration partnerships
-- **Direct Reports**: All C-suite executives
+**Role**: LEAN strategic leadership for widget platform growth
+- **Authority**: Final decisions on validated learning priorities and pivot/persevere choices
+- **Focus**: Hypothesis-driven partnerships, incremental growth strategy, learning metrics
+- **Key Metrics**: Experiment velocity, learning rate, validated hypotheses per month
+- **LEAN Approach**: Champions Build-Measure-Learn cycles across all departments
 
 ### [CTO - Chief Technology Officer](./cto.md)
-**Role**: Integration architecture and widget rendering systems
-- **Authority**: API integration decisions, widget performance, security protocols
-- **Focus**: OAuth flows, third-party API management, scalable widget infrastructure
-- **Key Integration**: Partners with CPO on widget technical requirements
-- **Specialization**: API integrations, microservices, real-time data sync
+**Role**: LEAN technical architecture and rapid prototyping
+- **Authority**: Technical hypothesis validation, MVP architecture decisions, fail-fast protocols
+- **Focus**: Evolutionary architecture, disposable prototypes, incremental technical innovation
+- **Key Integration**: Partners with CPO on rapid widget experimentation
+- **LEAN Specialization**: Prototype velocity, technical learning cycles, minimal viable architecture
 
 ### [CPO - Chief Product Officer](./cpo.md)
-**Role**: Widget ecosystem and dashboard user experience
-- **Authority**: Widget design standards, integration priorities, dashboard UX
-- **Focus**: Widget customization, app integration strategy, user onboarding
-- **Key Integration**: Works with CTO on integration architecture, CMO on launch strategy
+**Role**: LEAN product strategy and user validation
+- **Authority**: Product hypothesis validation, MVP widget decisions, user research prioritization
+- **Focus**: User story validation, iterative UX testing, time-boxed widget development
+- **Key Integration**: Partners with CTO on rapid prototyping, CMO on validated content
+- **LEAN Specialization**: 5-week widget development cycles (Hypothesis → MVP → Test → Learn → Decide)
 
 ### [CMO - Chief Marketing Officer](./cmo.md)
 **Role**: Marketing strategy and brand management
