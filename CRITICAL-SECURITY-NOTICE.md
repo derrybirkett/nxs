@@ -8,8 +8,8 @@
 
 **The following NEW Clerk API keys were accidentally exposed and are now compromised:**
 
-- **Secret Key**: `sk_test_khVxbfV7TE1DKiyMfJcvPUfWB2vvENMgcO9eQlOieX`
-- **Publishable Key**: `pk_test_ZXZvbHZpbmctdGhydXNoLTI3LmNsZXJrLmFjY291bnRzLmRldiQ`
+- **Secret Key**: `sk_test_[REDACTED_NEW_KEY]`
+- **Publishable Key**: `pk_test_[REDACTED_NEW_KEY]`
 
 **Exposure Method**: Keys shared directly in conversation text  
 **Risk Level**: HIGH - Keys are now visible in conversation history  
@@ -65,8 +65,8 @@ Keys were shared in plain text in the conversation, making them immediately comp
 
 ### Step 1: Revoke Exposed Keys
 Visit Clerk Dashboard and immediately revoke:
-- `sk_test_khVxbfV7TE1DKiyMfJcvPUfWB2vvENMgcO9eQlOieX`
-- `pk_test_ZXZvbHZpbmctdGhydXNoLTI3LmNsZXJrLmFjY291bnRzLmRldiQ`
+- `sk_test_[REDACTED_NEW_KEY]`
+- `pk_test_[REDACTED_NEW_KEY]`
 
 ### Step 2: Generate New Keys Securely
 1. Generate new test keys in Clerk Dashboard
