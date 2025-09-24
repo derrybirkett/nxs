@@ -45,9 +45,9 @@
 
 ### ❌ 1. REVOKE EXPOSED CREDENTIALS (CRITICAL)
 - **Action Required**: Log into Clerk Dashboard and revoke exposed keys
-- **Exposed Keys**:
-  - Secret: `REDACTED_SECRET_KEY`
-  - Publishable: `REDACTED_PUBLISHABLE_KEY`
+- **Exposed Keys**: (REDACTED - keys must be revoked manually via Clerk Dashboard)
+  - Secret: `sk_test_[REDACTED]`
+  - Publishable: `pk_test_[REDACTED]`
 - **Timeline**: IMMEDIATE (within 15 minutes of discovery)
 - **URL**: https://dashboard.clerk.dev/
 

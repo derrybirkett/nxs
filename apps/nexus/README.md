@@ -30,11 +30,22 @@ Following our LEAN methodology, we've implemented the absolute minimum foundatio
    - Copy your API keys
 
 2. **Configure Environment Variables**
-   Update `apps/nexus/.env.local` with your Clerk keys:
+   Create `apps/nexus/.env.local` file using the provided template:
    ```bash
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_your_key_here
-   CLERK_SECRET_KEY=sk_test_your_secret_key_here
+   # Copy the example file
+   cp apps/nexus/.env.local.example apps/nexus/.env.local
+   
+   # Edit with your actual Clerk keys from dashboard.clerk.dev
+   # NEVER commit this file - it's already in .gitignore
    ```
+   
+   Update the file with your actual keys:
+   ```bash
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_actual_publishable_key_here
+   CLERK_SECRET_KEY=your_actual_secret_key_here
+   ```
+   
+   🚨 **SECURITY**: Never commit real API keys to git!
 
 3. **Run the Application**
    ```bash

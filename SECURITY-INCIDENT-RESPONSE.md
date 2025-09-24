@@ -8,9 +8,9 @@
 
 ## 🔴 EXPOSED CREDENTIALS IDENTIFIED
 
-### Clerk Authentication Keys (COMPROMISED)
-- **Secret Key**: `REDACTED_SECRET_KEY`
-- **Publishable Key**: `REDACTED_PUBLISHABLE_KEY`
+### Clerk Authentication Keys (COMPROMISED - REVOKED)
+- **Secret Key**: `sk_test_[REDACTED]` (revoked via manual dashboard process)
+- **Publishable Key**: `pk_test_[REDACTED]` (revoked via manual dashboard process)
 - **File Location**: `apps/nexus/.env.local` 
 - **Git Status**: TRACKED IN REPOSITORY (committed in v0.5.0)
 

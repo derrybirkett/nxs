@@ -148,9 +148,9 @@ The **Chief Information Security Officer (CISO)** is responsible for establishin
 ## 🚨 IMMEDIATE ACTION REQUIRED
 
 **CRITICAL SECURITY BREACH IDENTIFIED**: 
-- `.env.local` file with sensitive Clerk API keys is tracked in git repository
-- Secret key exposed: `REDACTED_SECRET_KEY`
-- Publishable key exposed: `REDACTED_PUBLISHABLE_KEY`
+- `.env.local` file with sensitive Clerk API keys was tracked in git repository
+- Secret key exposed: `sk_test_[REDACTED]` (keys have been revoked)
+- Publishable key exposed: `pk_test_[REDACTED]` (keys have been revoked)
 
 **IMMEDIATE REMEDIATION REQUIRED**:
 1. Revoke exposed Clerk keys immediately

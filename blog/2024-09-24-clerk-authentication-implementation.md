@@ -123,6 +123,6 @@ Authentication isn't just a feature - it's the foundation that enables everythin
 
 ---
 
-Ready to experience the new NXS Dashboard? [Sign up today](http://localhost:3000) and be among the first to shape the future of dashboard widgets!
+Ready to experience the new NXS Dashboard? Visit your local development environment after following the secure setup instructions in the repository.
 
 *Questions or feedback? We'd love to hear from you as we continue building the most intuitive dashboard widget platform.*
