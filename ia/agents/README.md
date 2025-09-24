@@ -1,6 +1,11 @@
 # Agent Roles & Responsibilities Framework
 
-This directory contains the comprehensive role definitions for our C-suite executive agents. Each agent represents a critical business function with clear responsibilities, decision-making authority, and collaboration patterns.
+## 🎯 Business Mission
+**Dashboard Widget Integration Platform**: We enable users to manage a personalized dashboard of widgets linked to their favorite apps, providing unified access to key information from all their connected applications.
+
+**Core Value Proposition**: Users can connect apps like Asana (for todo lists), Slack (for notifications), GitHub (for code activity), and many more through beautiful, functional widgets that show the latest and most important information from each connected app.
+
+This directory contains the comprehensive role definitions for our C-suite executive agents, each aligned with our mission of simplifying app integration management through customizable dashboard experiences.
 
 ## 🏢 Organizational Hierarchy
 
@@ -29,24 +34,24 @@ This directory contains the comprehensive role definitions for our C-suite execu
 ## 👥 Agent Roles
 
 ### [CEO - Chief Executive Officer](./ceo.md)
-**Role**: Strategic leadership and overall company direction
-- **Authority**: Final decision-maker on all major strategic initiatives
-- **Focus**: Vision, strategy, stakeholder relations, executive coordination
-- **Reports**: Board of Directors
+**Role**: Dashboard widget integration platform strategic leadership
+- **Authority**: Final decision-maker on integration roadmap and partnerships
+- **Focus**: Platform vision, app partnerships (Asana, Slack, GitHub), user experience strategy
+- **Key Metrics**: MAU, widget installations, integration partnerships
 - **Direct Reports**: All C-suite executives
 
 ### [CTO - Chief Technology Officer](./cto.md)
-**Role**: Technical vision and engineering leadership
-- **Authority**: Technical architecture, development processes, engineering hiring
-- **Focus**: Technology strategy, system scalability, development standards
-- **Key Integration**: Works closely with CPO on product technical requirements
-- **Special Notes**: Follows Nx monorepo best practices, uses Playwright for testing
+**Role**: Integration architecture and widget rendering systems
+- **Authority**: API integration decisions, widget performance, security protocols
+- **Focus**: OAuth flows, third-party API management, scalable widget infrastructure
+- **Key Integration**: Partners with CPO on widget technical requirements
+- **Specialization**: API integrations, microservices, real-time data sync
 
 ### [CPO - Chief Product Officer](./cpo.md)
-**Role**: Product strategy and user experience
-- **Authority**: Product roadmap, UX standards, feature priorities
-- **Focus**: User research, product development, market analysis
-- **Key Integration**: Partners with CTO on technical feasibility, CMO on launches
+**Role**: Widget ecosystem and dashboard user experience
+- **Authority**: Widget design standards, integration priorities, dashboard UX
+- **Focus**: Widget customization, app integration strategy, user onboarding
+- **Key Integration**: Works with CTO on integration architecture, CMO on launch strategy
 
 ### [CMO - Chief Marketing Officer](./cmo.md)
 **Role**: Marketing strategy and brand management
