@@ -20,7 +20,7 @@
 - [ ] **REVOKE CLERK KEYS IMMEDIATELY**
   - [ ] Log into Clerk Dashboard (https://dashboard.clerk.dev/)
   - [ ] Navigate to API Keys section
-  - [ ] Revoke the exposed secret key: `sk_test_QfglXr...`
+  - [ ] Revoke the exposed secret key: `sk_test_[REDACTED]...`
   - [ ] Generate new API keys
   - [ ] Update local .env.local with new keys
 
