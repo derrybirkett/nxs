@@ -47,4 +47,18 @@ Thumbs.db
 .next
 out
 
+# Environment files - NEVER commit these
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+*.env
+.env.*
+
+# Backup environment files
+.env.backup
+.env.save
+
 test-output
