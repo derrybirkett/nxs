@@ -11,8 +11,8 @@
 
 ### Step 2: Revoke Exposed Keys
 **THESE KEYS ARE COMPROMISED AND MUST BE REVOKED:**
-- **Secret Key**: `REDACTED_SECRET_KEY`
-- **Publishable Key**: `REDACTED_PUBLISHABLE_KEY`
+- **Secret Key**: `sk_test_QfglXrPYTBSZDifmasKr9FhwODdZI8YWMtEsh9fmAf`
+- **Publishable Key**: `pk_test_ZXZvbHZpbmctdGhydXNoLTI3LmNsZXJrLmFjY291bnRzLmRldiQ`
 
 **Navigation in Clerk Dashboard:**
 1. Go to "API Keys" section (usually in left sidebar)
@@ -89,8 +89,8 @@ git filter-branch --force --index-filter \
 
 For `secrets.txt` file used with BFG, create:
 ```
-REDACTED_SECRET_KEY==>REDACTED_SECRET_KEY
-REDACTED_PUBLISHABLE_KEY==>REDACTED_PUBLISHABLE_KEY
+sk_test_QfglXrPYTBSZDifmasKr9FhwODdZI8YWMtEsh9fmAf==>REDACTED_SECRET_KEY
+pk_test_ZXZvbHZpbmctdGhydXNoLTI3LmNsZXJrLmFjY291bnRzLmRldiQ==>REDACTED_PUBLISHABLE_KEY
 ```
 
 ## 📋 POST-ROTATION CHECKLIST
