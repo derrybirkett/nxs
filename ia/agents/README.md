@@ -31,14 +31,14 @@ This directory contains the comprehensive role definitions for our C-suite execu
 │ Teams │        │ Teams │        │ Teams │
 └───────┘        └───────┘        └───────┘
 
-        ┌────────────────┬────────────────┐
-        |                |                |
-       CFO              CHRO             COO
-        |                |                |
-   ┌────┴────┐      ┌────┴────┐      ┌────┴────┐
-   │Financial│      │   HR    │      │Operations│
-   │  Teams  │      │  Teams  │      │  Teams   │
-   └─────────┘      └─────────┘      └─────────┘
+        ┌────────────────┬────────────────┬────────────────┐
+        |                |                |                |
+       CFO              CHRO             COO              CISO
+        |                |                |                |
+   ┌────┴────┐      ┌────┴────┐      ┌────┴────┐      ┌────┴────┐
+   │Financial│      │   HR    │      │Operations│      │Security │
+   │  Teams  │      │  Teams  │      │  Teams   │      │  Teams  │
+   └─────────┘      └─────────┘      └─────────┘      └─────────┘
 ```
 
 ## 👥 Agent Roles
@@ -89,6 +89,13 @@ This directory contains the comprehensive role definitions for our C-suite execu
 - **Focus**: Process optimization, project coordination, operational excellence
 - **Key Integration**: Acts as CEO's operational executor across all departments
 
+### [CISO - Chief Information Security Officer](./ciso.md)
+**Role**: Information security strategy and development security oversight
+- **Authority**: Security policies, credential management, deployment blocking for security concerns
+- **Focus**: DevSecOps, secret management, vulnerability assessment, incident response
+- **ZERO TOLERANCE**: No credentials in repositories, mandatory security reviews for auth code
+- **Key Integration**: Partners with all agents on security compliance and training
+
 ## 🔄 Cross-Functional Collaboration Patterns
 
 ### Product Development Flow
@@ -99,10 +106,10 @@ This directory contains the comprehensive role definitions for our C-suite execu
 5. **CFO** → Approves budget and tracks ROI
 
 ### Release Process Integration
-1. **Pre-launch**: CPO finalizes features, CMO creates content, CTO ensures quality
-2. **Launch**: COO coordinates execution, CMO publishes blog posts, CTO deploys
+1. **Pre-launch**: CPO finalizes features, CMO creates content, CTO ensures quality, CISO security review
+2. **Launch**: COO coordinates execution, CMO publishes blog posts, CTO deploys, CISO monitors security
 3. **Post-launch**: All agents monitor metrics, gather feedback, plan iterations
-4. **Wrap-up**: CMO updates activity log, CFO analyzes performance, CHRO assesses team impact
+4. **Wrap-up**: CMO updates activity log, CFO analyzes performance, CHRO assesses team impact, CISO security audit
 
 ### Decision Escalation Flow
 - **Department Level**: Handled by respective C-suite agent
@@ -127,6 +134,7 @@ This directory contains the comprehensive role definitions for our C-suite execu
 - **COO**: Timeline management and resource coordination
 - **CFO**: Budget tracking and performance analysis
 - **CHRO**: Team impact assessment and workload management
+- **CISO**: Security review, credential audit, and vulnerability assessment
 
 ## 🚨 Escalation Guidelines
 
