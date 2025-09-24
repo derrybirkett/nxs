@@ -187,5 +187,5 @@ This security policy is reviewed and updated:
 
 ---
 
-*This security policy is effective as of September 24, 2024 and is subject to regular updates.*  
+*This security policy is reviewed and updated regularly to ensure continued effectiveness.*
 *For questions about this policy, contact the CISO or create a private security discussion.*
